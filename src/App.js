@@ -7,6 +7,7 @@ import EdgeExtension from './pages/edgeextension'
 import EncryptionAlgorithm from './pages/encryptionalgorithm'
 import PongGame from './pages/ponggame'
 import InvestmentData from "./pages/investmentdatacollector";
+import Resume from "./pages/resume"
 import NotFound from './pages/notfound'
 import NavBar from './NavBar';
 // Start App
@@ -21,7 +22,8 @@ function App() {
               <Route path="/edge-extension" element={<EdgeExtension />} />
               <Route path="/encryption-algorithm" element={<EncryptionAlgorithm />} />
               <Route path="/pong-game" element={<PongGame />} />
-              <Route path="investment-data-collector" element={< InvestmentData />} />
+              <Route path="/investment-data-collector" element={< InvestmentData />} />
+              <Route path="/resume" element={<Resume />} />
               <Route path="*" element={< NotFound />} />
           </Routes>
         </div>

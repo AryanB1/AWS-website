@@ -21,6 +21,9 @@ function NavBar() {
             <li>
                 <Link to ="/investment-data-collector">Investment Data Collector</Link>
             </li>
+            <li>
+                <Link to ="/resume">Resume</Link>
+            </li>
         </ul>
     </nav>
     )

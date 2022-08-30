@@ -15,10 +15,10 @@ function HomePage() {
           <hr />
           <h2>About Me</h2>
           <hr />
-          <a href="./add"><button>Resume</button></a>
+          <a href="./resume"><button>Resume</button></a>
           <a href="https://www.linkedin.com/in/-aryan-bhardwaj-/" target="_blank"><button>LinkedIn</button></a>
           <a href="https://github.com/AryanB1" target="_blank"><button>Github</button></a>
-          <a href="mailto:aryan.bhardwaj@uwaterloo.ca" target="_blank"><button>Email</button></a>
+          <a href="mailto:aryan.bhardwaj@uwaterloo.ca" target="_blank"><button>Contact Me</button></a>
       </div>
     );
   }

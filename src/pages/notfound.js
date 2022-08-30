@@ -4,7 +4,9 @@ import React from "react";
 function NotFound() {
     return(
         <div style={{textAlign: "center"}}>
-         <h1>404: Page Not Found</h1>
+            <h1>404: Page Not Found</h1>
+            <hr />
+            <a href="/"><button>Back To Home Page</button></a>
         </div>
     )
 };
