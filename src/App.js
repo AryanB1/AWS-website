@@ -15,8 +15,8 @@ import NavBar from './NavBar';
 function App() {
   return (
       <div className="App">
-        <NavBar />
-        <div id="page-body">
+          <NavBar />
+          <div id="page-body">
           <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/edge-extension" element={<EdgeExtension />} />
