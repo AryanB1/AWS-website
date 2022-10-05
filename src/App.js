@@ -1,6 +1,6 @@
 // Imports
 import React from "react"
-import './App.css';
+import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/homepage'
 import EdgeExtension from './pages/edgeextension'

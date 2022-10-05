@@ -1,6 +1,9 @@
+$text_colour: whitesmoke;
+$primary_back: #232b2b;
+$secondary_back: cyan;   
 * {
-  background-color: #232b2b;
-  color: whitesmoke;
+  background-color: $primary_back;
+  color: $text_colour;
 }
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,7 +25,7 @@ h3, h4 {
 }
 
 nav {
-  border-bottom: 4px solid cyan;
+  border-bottom: 4px solid $secondary_back;
   text-align: center;
   position: fixed;
   top: 0;
@@ -51,7 +54,7 @@ nav a {
 
 nav a:hover {
   background: black;
-  color: cyan;
+  color: $secondary_back;
 }
 
 #page-body {
@@ -60,17 +63,17 @@ nav a:hover {
   padding-top: 64px;
 }
 hr{
-  color: cyan;
-  background-color: cyan;
-  border: 1px solid cyan;
+  color: $secondary_back;
+  background-color: $secondary_back;
+  border: 1px solid $secondary_back;
 }
 a {
   text-decoration: none;
   color: whitesmoke;
 }
 button {
-  background-color: #232b2b;
-  border: 1px solid cyan;
+  background-color: $primary_back;
+  border: 1px solid $secondary_back;
   padding: 15px;
   margin-right: 20px;
   margin-bottom: 15px;
