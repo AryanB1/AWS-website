@@ -1,18 +1,19 @@
 $text_colour: whitesmoke;
 $primary_back: #232b2b;
-$secondary_back: cyan;   
+$secondary_back: cyan;
+$primary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 * {
   background-color: $primary_back;
   color: $text_colour;
 }
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: $primary-font;
   font-size: 18px;
 }
 
 button {
   padding: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: $primary-font;
   font-size: 16px;
   background-color: black;
   color: white;
@@ -53,7 +54,7 @@ nav a {
 }
 
 nav a:hover {
-  background: black;
+  background: #131315;
   color: $secondary_back;
 }
 

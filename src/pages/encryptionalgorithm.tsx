@@ -1,4 +1,4 @@
-//Start PongGame
+//Start Ponggame
 import React from "react";
 function EncryptionAlgorithm() {
     return(
@@ -11,6 +11,6 @@ function EncryptionAlgorithm() {
         </div>
     );
 }
-//End PongGame
+//End Ponggame
 //Export
 export default EncryptionAlgorithm;

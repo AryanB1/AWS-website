@@ -1,7 +1,8 @@
-//Start PongGame
+//Start Ponggame
 import React from "react";
 function EdgeExtension() {
   return(
+      // @ts-ignore
       <div style={{textAlign: "center"}}>
         <h1>Microsoft Edge Extension</h1>
         <hr />
@@ -11,6 +12,6 @@ function EdgeExtension() {
       </div>
   );
 }
-//End PongGame
+//End Ponggame
 //Export
 export default EdgeExtension;
