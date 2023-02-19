@@ -10,8 +10,8 @@ function Resume() {
             <hr />
             <a href="https://drive.google.com/file/d/1hOIckIYOCy0NjwO7aXIw4y_9e5ZB4Hva/view?usp=sharing" target="_blank" rel="noreferrer"><button>Link</button></a>
         </div>
+
     );
 }
-//End Ponggame
 //Export
 export default Resume;
