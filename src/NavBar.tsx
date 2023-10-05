@@ -10,18 +10,6 @@ function NavBar() {
                 <Link to ="/">Home</Link>
             </li>
             <li>
-                <Link to ="/edge-extension">Edge Extension</Link>
-            </li>
-            <li>
-                <Link to ="/encryption-algorithm">Encryption Algorithm</Link>
-            </li>
-            <li>
-                <Link to ="/pong-game">Pong Game</Link>
-            </li>
-            <li>
-                <Link to ="/investment-data-collector">Investment Data Collector</Link>
-            </li>
-            <li>
                 <Link to ="/resume">Resume</Link>
             </li>
         </ul>
